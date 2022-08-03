@@ -12,7 +12,7 @@ function adicionaCurso(checkbox) {
     }
     else {
         totalCursos --
-        totalHoras -= parseInt(checkbox.valeu)
+        totalHoras -= parseInt(checkbox.valuu)
     }
 
     $tdTotalDeHoras.textContent = totalHoras + "h"
